@@ -1,0 +1,181 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+.container{
+    margin: 0 auto;
+    width: 840px;
+    padding: 40px 0;
+    padding-bottom: 80px;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+     
+}
+
+main h1 {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 5px;
+	border-bottom: 10px solid black;
+	font-size: 45px;
+    text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+    width: 95%;
+    
+}
+
+
+blockquote {
+	background-color: #D9E5E3;
+    padding: 16px;
+	border: 10px solid #C2CCCA;
+	width: 350px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+    
+}
+.trabalho{
+    float: right;
+}
+.experiencia{
+    float: left;
+}
+
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+     clear: both;  
+}
+
+nav a {
+	color: #F2FFFC;
+}
+
+main a {
+	color: #851944;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main div {
+	width: 720px;
+	margin:auto;
+	padding: 30px 0;
+}
+main{
+    float: left;
+    width: 80%;
+}
+imag{
+    width: 20px;
+    height: 20px;
+    
+}
+
+aside,img {
+	text-align: center;
+    float: right;
+   
+    
+}
+aside{
+    clear: right;    
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    position: absolute;
+    width: 20%;
+    position: relative;
+    top: 280px;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+.formato{
+    color: blue;
+    width: 55%;
+    margin:0;
+    list-style-type:circle;
+    float:right;
+    clear: right;
+}
+
+.navegacao-site{
+    clear: right;    
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    position: absolute;
+    width: 20%;
+    position: relative;
+    top: 280px;
+}
+
+.social-rodape{
+    margin: 0;
+    clear: right;
+    
+}
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /*text-indent: -99999px;*/
+    font-size: 0;
+}
+.github{
+    background-image: url(../MinhaFoto/github.png);
+}
+.linkedin{
+    background-image: url(../MinhaFoto/linkedin.png);
+}
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+h2 {
+	font-size: 30px;
+    clear: both; /* não quer float em nenhum dos lados do meu h2*/
+  
+    
+}
+
+.minha-foto{
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    position: absolute;
+    height: 280px;
+    width: 280px
+    top: 0;
+    right:0;
+    
+}
